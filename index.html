@@ -13,15 +13,15 @@
         height: 100%;
         object-fit: contain;
         background: transparent;
-        /* filter: opacity(16%); */
-        /*filter: contrast(180%);*/
+        filter: opacity(16%); 
+        filter: contrast(180%);
       }
 
-      /* #canvas {
-        /*z-index: 2;*/
-      /*backdrop-filter: hue-rotate(180deg);*/
-      /*filter: contrast(180%);*/
-      /* }  */
+      #canvas {
+        z-index: 2;
+      backdrop-filter: hue-rotate(180deg);
+      filter: contrast(180%);
+      }  
     </style>
   </head>
   <body
@@ -44,7 +44,7 @@
         background-color: #aaaaaa;
       "
     ></div>
-    <!-- <img class="cls-full" src="./aaaa.png" alt="" /> -->
+     <img class="cls-full" src="./aaaa.png" alt="" /> 
   </body>
   <script>
     var tileSize = 22;
@@ -55,8 +55,8 @@
     var maxStackHeight;
     var numb = 0;
 
-    // const text = " Love ♥️ ";
-    const text = " Sửu Nhi ";
+    const text = " Love ♥️ ";
+    // const text = " Sửu Nhi ";
     const arrText = text.split("");
 
     const init = () => {
